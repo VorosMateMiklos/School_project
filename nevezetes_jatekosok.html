@@ -29,7 +29,7 @@
         p {
             text-align: center;
         }
-        #pictures {
+        #pictures2 {
             margin-top: 20px;
             margin-left: 10px;
             margin-right: 10px;
@@ -46,8 +46,17 @@
         td {
             padding: 5px;
         }
-        thead {
+        tr:first-child {
             border-bottom: rgb(75, 38, 9) solid 5px;
+        }
+        footer {
+             height: 50px;
+             width: 400px;
+             margin-bottom: 10px;
+             margin-left: auto;
+             margin-right: auto;
+             padding: 5px;
+             align-items: center;
         }
     </style>
 </head>
@@ -57,7 +66,7 @@
         <h1>Nevezetes játékosok</h1>
     </section>
 
-    <section id="pictures" class="row">
+    <section id="pictures2" class="row">
 
         <div class="col-lg-3 col-md-6 col-sm-12">
             <p><img src="margo.jpg" width="200" height="300" class="img-fluid">
@@ -82,12 +91,10 @@
     </section>
 
     <table>
-        <thead>
-            <tr>
-                <td>Nyertes pár</td>
-                <td>Év</td>
-            </tr>
-        </thead>
+         <tr>
+               <td>Nyertes pár</td>
+            <td>Év</td>
+        </tr>
         <tr>
             <td>Jouni Jussila és Tiina Jussila</td>
             <td>1997</td>
@@ -181,6 +188,14 @@
             <td>2019</td>
         </tr>
     </table>
+
+    <footer>
+
+        <a href="szabalyok.html" class="btn btn-danger">Szabályok</a>
+        <a href="fooldal.html" class="btn btn-danger">Főoldal</a>
+        <a href="https://en.wikipedia.org/wiki/Wife-carrying" class="btn btn-danger">Forrás</a>
+  
+    </footer>
     
 </body>
 
